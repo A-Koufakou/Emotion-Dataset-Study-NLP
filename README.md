@@ -1,4 +1,18 @@
 # Emotion-Data-Analysis-Project
-Abstract from paper:
-
-Emotion Recognition in text is a challenging application that has attracted significant interest. This paper addresses the significant need to study recently introduced text-based corpora annotated for emotion detection. The study in this paper details several corpora introduced in the last five years, offering insights into their sources, annotation methodologies, availability, size, and other characteristics. In our efforts to consolidate and enhance existing resources, we construct a unified corpus built on these diverse datasets, on which we conduct emotion detection experiments. Our approach aims to streamline research efforts by providing a consolidated and standardized platform for emotion detection analysis, not only by cataloging recent corpora but also by offering a practical benchmarking demonstration.
+-	Authors: ...
+-	Description: Data Analysis of Recent Emotion-based Corpora
+-	Emotions:  anger, disgust, fear, joy, sadness, surprise, trust, anticipation, optimism, pessimism, neutral.
+- Datasets:
+  - CARER
+  - Covid-worry
+  - EmoEvent-EN
+  - enISEAR
+  - Github-love
+  - GoEmotions
+  - StackOv-GS
+  - Tweeteval
+  - Universal Joy
+WASSA-21
+- Annotation: multi-label, each tweet could be annotated as neutral or as one or more of 11 emotions above.
+-	Format: csv
+-	URL for data: 
