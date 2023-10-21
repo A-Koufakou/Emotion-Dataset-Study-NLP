@@ -1,18 +1,41 @@
 # Emotion-Data-Analysis-Project
 -	Authors: ...
 -	Description: Data Analysis of Recent Emotion-based Corpora
--	Emotions:  anger, disgust, fear, joy, sadness, surprise, trust, anticipation, optimism, pessimism, neutral.
+-	Chosen Emotion Map:  anger, disgust, fear, joy, love, neutral, sadness, surprise.
+-	Annotation: single-label
+-	Format: Varies, but work was done to transform each dataset to a unified CSV format.
+-	Paper: ...
 - Datasets:
   - CARER
-  - Covid-worry
-  - EmoEvent-EN
-  - enISEAR
-  - Github-love
+    - Records:  416,809
+    - Sample records used for experiments: 62,522
+    - Link to datatset: https://huggingface.co/datasets/dair-ai/emotion 
+  - Covid19Worry
+    - Records: 5,350
+    - Link to dataset: https://github.com/ben-aaron188/covid19worry/tree/master 
+  - EmoEvent (English)
+    - Records: 7,303
+    - Link to dataset: https://github.com/fmplaza/EmoEvent 
+  - enISEAR (English translation of deISEAR)
+    - Records: 1,001
+    - Link to dataset: https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/deisear/ 
+  - github-emotion-love
+    - Records: 1,719
+    - Link to dataset: https://huggingface.co/datasets/imranraad/github-emotion-love
   - GoEmotions
-  - StackOv-GS
-  - Tweeteval
+    - Records: 43,976
+    - Link to dataset: https://github.com/google-research/google-research/tree/master/goemotions
+  - StackOverflow - Gold Standard
+    - Records: 2,974
+    - Link to dataset: https://github.com/collab-uniba/EmotionDatasetMSR18/blob/master/Emotions_GoldSandard_andAnnotation.xlsx
+  - TweetEval
+    - Records: 5,052
+    - Link to dataset: https://github.com/cardiffnlp/tweeteval/tree/main/datasets/emotion
   - Universal Joy
-WASSA-21
-- Annotation: multi-label, each tweet could be annotated as neutral or as one or more of 11 emotions above.
--	Format: csv
--	URL for data: 
+    - Records: 167,313
+    - Sample records used for experiments: 50,195
+    - Link to dataset: https://github.com/sotlampr/universal-joy
+  - WASSA-21
+    - Records: 2,386
+    - Link to dataset: ????
+
