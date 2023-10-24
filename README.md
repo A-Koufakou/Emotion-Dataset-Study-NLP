@@ -1,5 +1,4 @@
-# Emotion-Data-Analysis-Project
--	Authors: ...
+# Emotion Detection in Text: Integrative Analysis and Benchmark with Recent Corpora
 -	Description: Data Analysis of Recent Emotion-based Corpora
 -	Chosen Emotion Map:  anger, disgust, fear, joy, love, neutral, sadness, surprise.
 -	Annotation: single-label
@@ -9,10 +8,10 @@
   - CARER
     - Records:  416,809
     - Sample records used for experiments: 62,522
-    - Link to datatset: https://huggingface.co/datasets/dair-ai/emotion 
+    - Link to dataset: https://huggingface.co/datasets/dair-ai/emotion 
   - Covid19Worry
-    - Records: 5,350
-    - Link to dataset: https://github.com/ben-aaron188/covid19worry/tree/master 
+    - Records: 5,350 
+    - Link to dataset: https://osf.io/awy7r/ 
   - EmoEvent (English)
     - Records: 7,303
     - Link to dataset: https://github.com/fmplaza/EmoEvent 
@@ -36,6 +35,7 @@
     - Sample records used for experiments: 50,195
     - Link to dataset: https://github.com/sotlampr/universal-joy
   - WASSA-21
-    - Records: 2,386
-    - Link to dataset: ????
+    - Records: 2385 records.
+    - Part of the WASSA 2021 Shared Task. Contains essays written after reading news articles related to harm to an individual, nature, etc.
+    - Link to dataset: https://competitions.codalab.org/competitions/28713
 
