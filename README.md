@@ -8,34 +8,48 @@
   - CARER
     - Records:  416,809
     - Sample records used for experiments: 62,522
+    - A set of collected tweets with a set of hashtags they constructed, e.g. #depressed, #grief for sadness, or #fear, #worried for fear.
+    - Labels: anger, fear, joy, sadness, surprise, love
     - Link to dataset: https://huggingface.co/datasets/dair-ai/emotion 
   - Covid19Worry
-    - Records: 5,350 
+    - Records: 5,350
+    - This data contains survey responses collected in UK over 2020-22. Participants wrote an essay as well as a short text about their feelings, entered demographic data and self-ratings for several emotions then chose one emotion dominant emotion.
+    - Labels: anger, anxiety, disgust, desire, fear, happiness, relaxation,  sadness
     - Link to dataset: https://osf.io/awy7r/ 
   - EmoEvent (English)
     - Records: 7,303
+    - Labels: anger, disgust, fear, joy, sadness, surprise, neutral
     - Link to dataset: https://github.com/fmplaza/EmoEvent 
   - enISEAR (English translation of deISEAR)
     - Records: 1,001
+    - Labels: anger, disgust, fear, joy, sadness, surprise, shame/guilt
     - Link to dataset: https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/deisear/ 
   - github-emotion-love
     - Records: 1,719
+    - Labels: anger, fear, joy, sadness, surprise, love
     - Link to dataset: https://huggingface.co/datasets/imranraad/github-emotion-love
   - GoEmotions
     - Records: 43,976
+    - Labels
+      - 27 emotions + neutral. Revised from Cowen and Keltner.
+      - Included Ekman mapping: anger, disgust, fear, joy, sadness, surprise, neutral  
     - Link to dataset: https://github.com/google-research/google-research/tree/master/goemotions
   - StackOverflow - Gold Standard
     - Records: 2,974
+    - Labels: anger, disgust, fear, joy, sadness, surprise, love
     - Link to dataset: https://github.com/collab-uniba/EmotionDatasetMSR18/blob/master/Emotions_GoldSandard_andAnnotation.xlsx
   - TweetEval
     - Records: 5,052
+    - Labels: anger, joy, optimism, sadness
     - Link to dataset: https://github.com/cardiffnlp/tweeteval/tree/main/datasets/emotion
   - Universal Joy
     - Records: 167,313
     - Sample records used for experiments: 50,195
+    - Labels: anger, anticipation, fear, joy, sadness
     - Link to dataset: https://github.com/sotlampr/universal-joy
   - WASSA-21
     - Records: 2385 records.
     - Part of the WASSA 2021 Shared Task. Contains essays written after reading news articles related to harm to an individual, nature, etc.
+    - Labels: anger, disgust, fear, joy, sadness, surprise, neutral
     - Link to dataset: https://competitions.codalab.org/competitions/28713
 
