@@ -10,7 +10,8 @@
     - Part of the SemEval 2018 task 1. Contains tweets from 2016-17 with different query terms.
     - Labels: each record could have one or more of the following:
       - anger, disgust, fear, joy, sadness, surprise, neutral, trust, anticipation, optimisim, pessimism
-    - Link to dataset: https://competitions.codalab.org/competitions/17751 
+    - Link to dataset: https://competitions.codalab.org/competitions/17751
+    - [test](https://competitions.codalab.org/competitions/17751)
   - CARER
     - Records:  416,809. Sampling used for experiments: 62,522
     - Saravia et al. (2018) collected tweets with a set of hashtags they constructed, e.g. #depressed, #grief for sadness, or #fear, #worried for fear.
