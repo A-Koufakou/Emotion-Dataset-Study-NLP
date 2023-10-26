@@ -5,22 +5,37 @@
 -	Format: Varies, but work was done to transform each dataset to a unified CSV format.
 -	Paper: (coming soon)
 - Datasets:
+  - Affect in Tweets
+    - Records:  ~11,000
+    - Part of the SemEval 2018 task 1. Contains tweets from 2016-17 with different query terms.
+    - Labels: each record could have one or more of the following:
+      - anger, disgust, fear, joy, sadness, surprise, neutral, trust, anticipation, optimisim, pessimism
+    - Link to dataset: https://competitions.codalab.org/competitions/17751 
   - CARER
-    - Records:  416,809
-    - Sample records used for experiments: 62,522
+    - Records:  416,809. Sampling used for experiments: 62,522
     - Saravia et al. (2018) collected tweets with a set of hashtags they constructed, e.g. #depressed, #grief for sadness, or #fear, #worried for fear.
     - Labels: anger, fear, joy, sadness, surprise, love
     - Link to dataset: https://huggingface.co/datasets/dair-ai/emotion 
   - Covid19Worry
     - Records: 5,350
-    - Contains survey responses collected by (Kleinberg et al., 2020) in the UK over 2020-22 (during and after Covid lockdown). Participants wrote and annotated the records.
+    - Contains survey responses collected by (Kleinberg et al., 2020) in the UK over 2020-22 (during and after Covid lockdown). Participants wrote and self-rated the records.
     - Labels: anger, anxiety, disgust, desire, fear, happiness, relaxation,  sadness
     - Link to dataset: https://osf.io/awy7r/ 
+  - EmoContext
+    - Records: ~40,000
+    - Part of the SemEval 2019 task 3. Contains textual dialogue: a user utterance along with two turns of context.
+    - Labels: happy, sad, angry, neutral
+    - Link to dataset: https://competitions.codalab.org/competitions/19790
   - EmoEvent (English)
     - Records: 7,303
     - Contains tweets collected by (Plaza-del-Arco et al., 2020) related to events in 2019. The resulting tweets in English and in Spanish were annotated by Amazon MTurkers.
     - Labels: anger, disgust, fear, joy, sadness, surprise, neutral
     - Link to dataset: https://github.com/fmplaza/EmoEvent 
+  - EmotionLines
+    - Records: ~2,900
+    - Contains dialogue from TV scripts and Facebook messenger.
+    - Labels: anger, disgust, fear, joy, sadness, surprise, neutral
+    - Link to dataset: https://doraemon.iis.sinica.edu.tw/emotionlines/index.html
   - enISEAR (English translation of deISEAR)
     - Records: 1,001
     - Answers from a questionnaire where crowdsourced annotators gave a description of an event for which they felt a particular emotion. Uses a framework similar to earlier ISEAR (International Survey on Emotion Antecedents and Reactions)(Scherer and Wallbott, 1994).
@@ -28,7 +43,7 @@
     - Link to dataset: https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/deisear/ 
   - github-emotion-love
     - Records: 1,719
-    - This dataset by (Imran et al., 2022) contains GitHub comments on pull requests/issues for popular repositories. The comments were annotated by the authors.
+    - This dataset by (Imran et al., 2022) contains GitHub comments on pull requests/issues for popular repositories. The comments were labeled by the authors.
     - Labels: anger, fear, joy, sadness, surprise, love
     - Link to dataset: https://huggingface.co/datasets/imranraad/github-emotion-love
   - GoEmotions
@@ -49,8 +64,7 @@
     - Labels: anger, joy, optimism, sadness
     - Link to dataset: https://github.com/cardiffnlp/tweeteval/tree/main/datasets/emotion
   - Universal Joy
-    - Records: 167,313
-    - Sample records used for experiments: 50,195
+    - Records: 167,313. Sampling used for experiments: 50,195
     - Lamprinidis et al. (2021) presented a dataset with anonymized public Facebook posts collected in 2014 in 18 languages. The authors labeled the records.
     - Labels: anger, anticipation, fear, joy, sadness
     - Link to dataset: https://github.com/sotlampr/universal-joy
