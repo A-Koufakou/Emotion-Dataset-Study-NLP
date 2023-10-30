@@ -15,37 +15,44 @@ Datasets: This README contains brief descriptions and links for all the datasets
     - Saravia et al. (2018) collected tweets with a set of hashtags they constructed, e.g. #depressed, #grief for sadness, or #fear, #worried for fear.
     - Labels: anger, fear, joy, sadness, surprise, love
     - [Link to dataset](https://huggingface.co/datasets/dair-ai/emotion)
+
 **Covid-Worry**
     - Authors: Bennett Kleinberg, Isabelle van der Vegt, and Maximilian Mozes
     - Size: 5,350 survey responses from 3 years
     - Contains survey responses collected by (Kleinberg et al., 2020) in the UK first in 2020 and then 2021-22 (van der Vegt and Kleinberg, 2023). Participants wrote and self-rated the records.
     - Labels: anger, anxiety, disgust, desire, fear, happiness, relaxation,  sadness
     - [Link to dataset](https://osf.io/awy7r/)
+
 **EmoContext**
     - Records: ~40,000
     - Part of the SemEval 2019 task 3. Contains textual dialogue: a user utterance along with two turns of context.
     - Labels: happy, sad, angry, neutral
     - [Link to dataset](https://competitions.codalab.org/competitions/19790)
+
 **EmoEvent**
     - English Records: 7,303
     - Contains tweets collected by (Plaza-del-Arco et al., 2020) related to events in 2019. The resulting tweets in English and in Spanish were annotated by Amazon MTurkers.
     - Labels: anger, disgust, fear, joy, sadness, surprise, neutral
     - [Link to dataset](https://github.com/fmplaza/EmoEvent)
+
 **EmotionLines**
     - Records: ~29,000
     - Contains dialogue from TV scripts and Facebook messenger.
     - Labels: anger, disgust, fear, joy, sadness, surprise, neutral
     - [Link to dataset](https://doraemon.iis.sinica.edu.tw/emotionlines/index.html)
+
 **enISEAR**
     - English Records: 1,001
     - Answers from a questionnaire where crowdsourced annotators gave a description of an event for which they felt a particular emotion. Uses a framework similar to earlier ISEAR (International Survey on Emotion Antecedents and Reactions)(Scherer and Wallbott, 1994).
     - Labels: anger, disgust, fear, joy, sadness, surprise, shame/guilt
     - [Link to dataset](https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/deisear/)
+
 **github-emotion-love**
     - Records: 1,719
     - This dataset by (Imran et al., 2022) contains GitHub comments on pull requests/issues for popular repositories. The comments were labeled by the authors.
     - Labels: anger, fear, joy, sadness, surprise, love
     - [Link to dataset](https://huggingface.co/datasets/imranraad/github-emotion-love)
+
 **GoEmotions**
     - Records: 43,976
     - This dataset by (Demszky et al., 2020) contains Reddit comments with fine-grained human annotations.
@@ -53,21 +60,25 @@ Datasets: This README contains brief descriptions and links for all the datasets
       - 27 emotions + neutral. Revised from Cowen and Keltner.
       - Included Ekman mapping: anger, disgust, fear, joy, sadness, surprise, neutral  
     - [Link to dataset](https://github.com/google-research/google-research/tree/master/goemotions)
+
 **StackOverflow - Gold Standard**
     - Records: 2,974
     - Novielli et al. (2018) collected Stack Overflow questions, answers and comments. They were annotated by volunteers.
     - Labels: anger, disgust, fear, joy, sadness, surprise, love
     - [Link to dataset](https://github.com/collab-uniba/EmotionDatasetMSR18/blob/master/Emotions_GoldSandard_andAnnotation.xlsx)
+
 **TweetEval**
     - Records: 5,052
     - Barbieri et al. (2020) created a unified twitter dataset with seven heterogeneous Twitter-specific classification tasks. Includes Affect in Tweets (Mohammad et al., 2018), only keeping single-label records.
     - Labels: anger, joy, optimism, sadness
     - [Link to dataset](https://github.com/cardiffnlp/tweeteval/tree/main/datasets/emotion)
+
 **Universal Joy**
     - English Records: 167,313. Sampling used for experiments: 50,195
     - Lamprinidis et al. (2021) presented a dataset with anonymized public Facebook posts collected in 2014 in 18 languages. The authors labeled the records.
     - Labels: anger, anticipation, fear, joy, sadness
     - [Link to dataset](https://github.com/sotlampr/universal-joy)
+
 **WASSA-21**
     - Records: 2,385 records.
     - Part of the WASSA 2021 Shared Task. Contains essays written after reading news articles related to harm to an individual, nature, etc.
