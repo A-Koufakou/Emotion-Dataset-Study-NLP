@@ -36,7 +36,7 @@ Datasets: This README contains brief descriptions and links for all the datasets
     - Contains dialogue from TV scripts and Facebook messenger.
     - Labels: anger, disgust, fear, joy, sadness, surprise, neutral
     - [Link to dataset](https://doraemon.iis.sinica.edu.tw/emotionlines/index.html)
-  - enISEAR 
+**enISEAR**
     - English Records: 1,001
     - Answers from a questionnaire where crowdsourced annotators gave a description of an event for which they felt a particular emotion. Uses a framework similar to earlier ISEAR (International Survey on Emotion Antecedents and Reactions)(Scherer and Wallbott, 1994).
     - Labels: anger, disgust, fear, joy, sadness, surprise, shame/guilt
