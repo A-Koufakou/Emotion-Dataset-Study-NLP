@@ -24,73 +24,73 @@ Datasets: This README contains brief descriptions and links for all the datasets
 - [Link to dataset](https://osf.io/awy7r/)
 
 **EmoContext**
-- Authors:
-- Size: ~40,000
+- Authors: Ankush Chatterjee, Kedhar Nath Narahari, Meghana Joshi, and Puneet Agrawal.
+- Size: ~40,000 dialogues
 - Description: Part of the SemEval 2019 task 3. Contains textual dialogue: a user utterance along with two turns of context.
 - Labels: happy, sad, angry, neutral
 - [Link to dataset](https://competitions.codalab.org/competitions/19790)
 
 **EmoEvent**
-- Authors:
-- Size: English tweets 7,303
+- Authors: Flor Miriam Plaza del Arco, Carlo Strapparava, L. Alfonso Urena Lopez, and Maite Martin
+- Size: 7,303 English tweets 
 - Description: Contains tweets collected by (Plaza-del-Arco et al., 2020) related to events in 2019. The resulting tweets in English and in Spanish were annotated by Amazon MTurkers.
 - Labels: anger, disgust, fear, joy, sadness, surprise, neutral
 - [Link to dataset](https://github.com/fmplaza/EmoEvent)
 
 **EmotionLines**
-- Authors:
-- Size: ~29,000
+- Authors: Sheng-Yeh Chen, Chao-Chun Hsu, Chuan-Chun Kuo, Ting-Hao (Kenneth)Huang, Lun-Wei Ku
+- Size: ~29,000 dialogues
 - Description: Contains dialogue from TV scripts and Facebook Messenger.
 - Labels: anger, disgust, fear, joy, sadness, surprise, neutral
 - [Link to dataset](https://doraemon.iis.sinica.edu.tw/emotionlines/index.html)
 
 **enISEAR**
-- Authors:
-- Size: English Records: 1,001
+- Authors: Enrica Troiano, Sebastian Padó, Roman Klinger
+- Size: 1,001 English questionnaire responses
 - Description: Answers from a questionnaire where crowdsourced annotators gave a description of an event for which they felt a particular emotion. Uses a framework similar to earlier ISEAR (International Survey on Emotion Antecedents and Reactions)(Scherer and Wallbott, 1994).
 - Labels: anger, disgust, fear, joy, sadness, surprise, shame/guilt
 - [Link to dataset](https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/deisear/)
 
 **github-emotion-love**
-- Authors:
-- Size: 1,719
+- Authors: Mia Mohammad Imran, Yashasvi Jain, Preetha Chatterjee, Kostadin Damevski
+- Size: 1,719 GitHub comments
 - Description: This dataset by (Imran et al., 2022) contains GitHub comments on pull requests/issues for popular repositories. The comments were labeled by the authors.
 - Labels: anger, fear, joy, sadness, surprise, love
 - [Link to dataset](https://huggingface.co/datasets/imranraad/github-emotion-love)
 
 **GoEmotions**
-- Authors:
+- Authors: Dorottya Demszky, Dana Movshovitz-Attias, Jeongwoo Ko, Alan Cowen, Gaurav Nemade, Sujith Ravi
 - Size: about 58K Reddit comments
-- Description: This dataset by (Demszky et al., 2020) contains Reddit comments with fine-grained human annotations.
+- Description: Contains Reddit comments with fine-grained human annotations.
 - Labels
   - 27 emotions + neutral. Revised from Cowen and Keltner.
   - Included Ekman mapping: anger, disgust, fear, joy, sadness, surprise, neutral  
 - [Link to dataset](https://github.com/google-research/google-research/tree/master/goemotions)
 
 **StackOverflow - Gold Standard**
-- Authors:
-- Size: 2,974
+- Authors: Nicole Novielli, Fabio Calefato, Filippo Lanubile
+- Size: 2,974 Stack Overflow posts
 - Description: Novielli et al. (2018) collected Stack Overflow questions, answers, and comments. They were annotated by volunteers.
 - Labels: anger, disgust, fear, joy, sadness, surprise, love
 - [Link to dataset](https://github.com/collab-uniba/EmotionDatasetMSR18/blob/master/Emotions_GoldSandard_andAnnotation.xlsx)
 
 **TweetEval**
-- Authors:
+- Authors: Francesco Barbieri, Jose Camacho-Collados, Leonardo Neves, Luis Espinosa-Anke
 - Size: 5,052 tweets
-- Barbieri et al. (2020) created a unified Twitter dataset with seven heterogeneous Twitter-specific classification tasks. Includes Affect in Tweets (Mohammad et al., 2018), only keeping single-label records.
+- Description: A unified Twitter dataset with seven heterogeneous Twitter-specific classification tasks. Includes Affect in Tweets (Mohammad et al., 2018), only keeping single-label records.
 - Labels: anger, joy, optimism, sadness
 - [Link to dataset](https://github.com/cardiffnlp/tweeteval/tree/main/datasets/emotion)
 
 **Universal Joy**
-- Authors:
-- Size: English Records: 167,313. Sampling used for experiments: 50,195
+- Authors: Sotiris Lamprinidis, Federico Bianchi, Daniel Hardt, Dirk Hovy
+- Size: total was 167,313 Facebook posts. Sample we used for our experiments: 50,195
 - Description: Lamprinidis et al. (2021) presented a dataset with anonymized public Facebook posts collected in 2014 in 18 languages. The authors labeled the records.
 - Labels: anger, anticipation, fear, joy, sadness
 - [Link to dataset](https://github.com/sotlampr/universal-joy)
 
 **WASSA-21**
-- Authors:
+- Authors: Valentin Barriere, João Sedoc, Shabnam Tafreshi, and Salvatore Giorgi
 - Size: 2,385 essays.
-- Description: Part of the WASSA 2021 Shared Task. Contains essays written after reading news articles related to harm to an individual, nature, etc.
+- Description: Part of the 11th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis. Contains essays written after reading news articles related to harm to an individual, nature, etc.
 - Labels: anger, disgust, fear, joy, sadness, surprise, neutral
 - [Link to dataset](https://competitions.codalab.org/competitions/28713)
