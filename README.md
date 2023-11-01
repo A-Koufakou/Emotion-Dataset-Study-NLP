@@ -1,6 +1,6 @@
 # Emotion Detection in Text: Integrative Analysis and Benchmark with Recent Corpora
 
-Datasets: This README contains brief descriptions and links for all the datasets used in text-based emotion recognition.
+Datasets: This README contains brief descriptions and links for recent datasets used in text-based emotion recognition (since 2018).
 
 **Affect in Tweets**
 - Authors: Saif Mohammad, Felipe Bravo-Marquez, Mohammad Salameh, and Svetlana Kiritchenko.
