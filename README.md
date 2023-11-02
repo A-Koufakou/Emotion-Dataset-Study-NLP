@@ -7,6 +7,7 @@ Datasets: This README contains brief descriptions and links for recent datasets 
 - Size: ~11,000 English tweets
 - Description: Part of the SemEval 2018 task 1. Contains tweets from 2016-17 with different query terms.
 - Labels: each record could be neutral, or one or more of the following: anger, disgust, fear, joy, sadness, surprise, trust, anticipation, optimism, pessimism
+- Link to paper: [https://aclanthology.org/S18-1001/](https://aclanthology.org/S18-1001/)
 - [Link to dataset](https://competitions.codalab.org/competitions/17751)
 
 **CARER**
