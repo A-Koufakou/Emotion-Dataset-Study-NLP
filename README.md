@@ -63,7 +63,7 @@ Datasets: This README contains brief descriptions and links for recent datasets 
 - Size: 1,719 GitHub comments
 - Description: This dataset by (Imran et al., 2022) contains GitHub comments on pull requests/issues for popular repositories. The comments were labeled by the authors.
 - Labels: anger, fear, joy, sadness, surprise, love
-- Link to paper: [https://arxiv.org/abs/2208.05573](https://arxiv.org/abs/2208.05573)
+- Link to paper: [https://dl.acm.org/doi/pdf/10.1145/3551349.3556925](https://dl.acm.org/doi/pdf/10.1145/3551349.3556925)
 - Link to dataset: [https://huggingface.co/datasets/imranraad/github-emotion-love](https://huggingface.co/datasets/imranraad/github-emotion-love)
 
 **GoEmotions**
@@ -81,7 +81,7 @@ Datasets: This README contains brief descriptions and links for recent datasets 
 - Size: 2,974 Stack Overflow posts
 - Description: Novielli et al. (2018) collected Stack Overflow questions, answers, and comments. They were annotated by volunteers.
 - Labels: anger, disgust, fear, joy, sadness, surprise, love
-- Link to paper: [https://arxiv.org/abs/1803.02300](https://arxiv.org/abs/1803.02300)
+- Link to paper: [https://dl.acm.org/doi/pdf/10.1145/3196398.3196453](https://dl.acm.org/doi/pdf/10.1145/3196398.3196453)
 - Link to dataset: [https://github.com/collab-uniba/EmotionDatasetMSR18/blob/master/Emotions_GoldSandard_andAnnotation.xlsx](https://github.com/collab-uniba/EmotionDatasetMSR18/blob/master/Emotions_GoldSandard_andAnnotation.xlsx)
 
 **TweetEval**
