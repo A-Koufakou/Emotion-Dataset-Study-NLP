@@ -82,7 +82,7 @@ Datasets: This README contains brief descriptions and links for recent datasets 
 - Description: Novielli et al. (2018) collected Stack Overflow questions, answers, and comments. They were annotated by volunteers.
 - Labels: anger, disgust, fear, joy, sadness, surprise, love
 - Link to paper: [https://dl.acm.org/doi/pdf/10.1145/3196398.3196453](https://dl.acm.org/doi/pdf/10.1145/3196398.3196453)
-- Link to dataset: [https://github.com/collab-uniba/EmotionDatasetMSR18/blob/master/Emotions_GoldSandard_andAnnotation.xlsx](https://github.com/collab-uniba/EmotionDatasetMSR18/blob/master/Emotions_GoldSandard_andAnnotation.xlsx)
+- Link to dataset: [https://github.com/collab-uniba/EmotionDatasetMSR18](https://github.com/collab-uniba/EmotionDatasetMSR18)
 
 **TweetEval**
 - Authors: Francesco Barbieri, Jose Camacho-Collados, Leonardo Neves, Luis Espinosa-Anke
