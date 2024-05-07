@@ -1,4 +1,4 @@
-# Emotion Detection in Text: Integrative Analysis and Benchmark with Recent Corpora
+# Emotion Detection in Text: A study of recent text corpora and resources
 
 Datasets: This README contains brief descriptions and links for recent datasets used in text-based emotion recognition (since 2018).
 
