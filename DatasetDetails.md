@@ -1,6 +1,4 @@
-# Emotion Detection in Text: A study of recent text corpora and resources
-
-Datasets: This README contains brief descriptions and links for recent datasets used in text-based emotion recognition (since 2018).
+**This README contains brief descriptions and links for recent datasets labeled with emotions (presented since 2018)**
 
 **Affect in Tweets**
 - Authors: Saif Mohammad, Felipe Bravo-Marquez, Mohammad Salameh, and Svetlana Kiritchenko.
