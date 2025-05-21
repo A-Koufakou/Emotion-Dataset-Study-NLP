@@ -74,6 +74,11 @@
 - collected Spanish comments and reactions from Facebook for popular news portals in Argentina in 2016-2019.
 - Labels: distant supervision. They only kept comments with reactions love, haha, angry, and sad (these were actual reactions on Facebook). Out of these (over one million) comments, a sample of 247 comments were manually tagged by psychologists. 
 
+**FEEL-IT**
+- Authors: Bianchi et al.
+- Description: Collected Italian tweets in 2020 without using specific terms.
+- Labels: Two of the authors annotated about 2 thousand tweets with four emotions: anger, fear, joy, sadness.
+
 **github-emotion-love**
 - Authors: Mia Mohammad Imran, Yashasvi Jain, Preetha Chatterjee, Kostadin Damevski
 - Size: 1,719 GitHub comments
@@ -91,6 +96,11 @@
   - Included Ekman mapping: anger, disgust, fear, joy, sadness, surprise, neutral
 - Link to paper: [https://aclanthology.org/2020.acl-main.372/](https://aclanthology.org/2020.acl-main.372/)
 - Link to dataset: [https://github.com/google-research/google-research/tree/master/goemotions](https://github.com/google-research/google-research/tree/master/goemotions)
+
+**GoodNews** 
+- Authors: Bostan et al.
+- Collected English news headlines and annotated them via crowdsourcing (titled `GoodNewsEveryone' in the paper). Annotations were provided for emotions and their intensity, as well as semantic roles (experiencer, cause, target, cue) and reader perspective.
+- Emotions were extended Plutchick: anger, annoyance, disgust, fear, guilt, joy, love, negative anticipation including pessimism, negative surprise, positive anticipation including optimism, positive surprise, pride, sadness, shame, and trust.
 
 **StackOverflow - Gold Standard**
 - Authors: Nicole Novielli, Fabio Calefato, Filippo Lanubile
