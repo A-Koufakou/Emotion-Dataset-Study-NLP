@@ -33,8 +33,8 @@
 - Link to dataset: [https://osf.io/awy7r/](https://osf.io/awy7r/)
 
 **DENS**
-- \cite{liu2019dens}
-- collected classic and modern English narratives from online sources (wattpad and Project Gutenberg). The 9,710 passages in DENS (Dataset for Emotions of Narrative Sequences) were annotated by Amazon Mechanical Turk workers with \textit{joy, sadness, anger, fear, anticipation, surprise, love, disgust}, and \textit{neutral}.
+- Authors: Liu et al.
+- collected classic and modern English narratives from online sources (wattpad and Project Gutenberg). The 9,710 passages in DENS (Dataset for Emotions of Narrative Sequences) were annotated by Amazon Mechanical Turk workers with joy, sadness, anger, fear, anticipation, surprise, love, disgust, neutral.
 - The data is available on request.
 
 **EmoContext**
@@ -68,6 +68,11 @@
 - Labels: anger, disgust, fear, joy, sadness, surprise, shame/guilt
 - Link to paper: [https://aclanthology.org/P19-1391/](https://aclanthology.org/P19-1391/)
 - Link to dataset: [https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/deisear/](https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/deisear/)
+
+**FB-Emo-SP**
+- Authors: Tessore et al.
+- collected Spanish comments and reactions from Facebook for popular news portals in Argentina in 2016-2019.
+- Labels: distant supervision. They only kept comments with reactions love, haha, angry, and sad (these were actual reactions on Facebook). Out of these (over one million) comments, a sample of 247 comments were manually tagged by psychologists. 
 
 **github-emotion-love**
 - Authors: Mia Mohammad Imran, Yashasvi Jain, Preetha Chatterjee, Kostadin Damevski
