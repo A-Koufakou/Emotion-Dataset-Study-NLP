@@ -102,6 +102,28 @@
 - Collected English news headlines and annotated them via crowdsourcing (titled `GoodNewsEveryone' in the paper). Annotations were provided for emotions and their intensity, as well as semantic roles (experiencer, cause, target, cue) and reader perspective.
 - Emotions were extended Plutchick: anger, annoyance, disgust, fear, guilt, joy, love, negative anticipation including pessimism, negative surprise, positive anticipation including optimism, positive surprise, pride, sadness, shame, and trust.
 
+**IAEC (Iraqi Arabic Emotion Corpus)**  
+IAEDS collected Facebook posts in 2016-18 written in the Iraqi dialect using words such as happy or awesome for happiness. Iraqui annotators (professors) annotated the records with Ekman.
+
+**MultiEmo-IT** 
+sprugnoli2020multiemotions presented a dataset with Italian comments on youtube videos and on Facebook videos/pictures collected in 2020 (originally named MultiEmotions-IT). The comments were annotated by students following Plutchik and neutral, plus dyads: composed of two basic emotions (e.g., love is a blend of joy and trust). The annotation also involved `relatedness' to the media content, polarity of opinion, and if the comment expressed sarcasm.
+
+**Palo-Emo-Gr** 
+alexandridis2021emotion collected Greek tweets and then annotated them through crowdsourcing into Plutchik or none (multi-labeled when not in none). This corpus is not publicly available.
+
+**RECCON** 
+poria2021recognizing
+developed a dataset with conversational utterances also annotated with the cause of the emotion. RECCON (Recognizing Emotion Cause in CONversations) contains samples from previous datasets: IEMOCAP pbusso2008iemocap and Daily Dialog pli-etal-2017-dailydialog. The records were annotated  by undergraduate/graduate computer science students with Ekman plus neutral, frustrated, and excited.
+
+**RU-EN** 
+ilyas2023emotion  scrapped 400,000 sentences from three social media platforms to identify 20,000 Roman Urdu sentences. Roman Urdu (RU) refers to writing Urdu using the Latin script instead of the Arabic script, which is prevalent on social media. RU-EN `code-mixed' text means that speakers switch between using English and RU words and terms. Records in the dataset were annotated by native speakers (paper used the term `experts') with anger, fear, happy, sad and surprise. 
+
+**SenWave** 
+yang2020senwave collected more than 105 million tweets in various languages and over 1 million Chinese weibo posts, all related to COVID-19. A subset of the tweets in English and Arabic were annotated by at least three experienced annotators in the corresponding language with optimistic, thankful, empathetic, pessimistic, anxious, sad, annoyed, as well as non-emotion labels: denial, official report, and joking. They also translated the labeled English tweets into Spanish, French, and Italian with Google translate. On the other hand, a subset of the Chinese weibo posts were annotated with Ekman plus gratitude.% (we only focused on English data in this study). 
+
+**ShEMO** 
+mohamad2019shemo presented a a Persian dataset based on radio plays. Annotators were Persian native speakers and used anger, fear, happiness, sadness and surprise, plus neutral. Though ShEmo (Sharif Emotional Speech Database) is a speech database, the transcripts of each record are available.
+
 **StackOverflow - Gold Standard**
 - Authors: Nicole Novielli, Fabio Calefato, Filippo Lanubile
 - Size: 2,974 Stack Overflow posts
@@ -118,6 +140,9 @@
 - Link to paper: [https://aclanthology.org/2020.findings-emnlp.148/](https://aclanthology.org/2020.findings-emnlp.148/)
 - Link to dataset: [https://github.com/cardiffnlp/tweeteval/tree/main/datasets/emotion](https://github.com/cardiffnlp/tweeteval/tree/main/datasets/emotion)
 
+**UIT-VSMEC**
+collected Vietnamese Facebook posts in the Vietnamese Social Media Emotion Corpus (VSMEC). They had them annotated by 3 human annotators with Ekman plus neutral.
+
 **Universal Joy**
 - Authors: Sotiris Lamprinidis, Federico Bianchi, Daniel Hardt, Dirk Hovy
 - Size: total was 167,313 Facebook posts. Sample we used for our experiments: 50,195
@@ -126,6 +151,11 @@
 - Link to paper: [https://aclanthology.org/2021.wassa-1.7/](https://aclanthology.org/2021.wassa-1.7/)
 - Link to dataset: [https://github.com/sotlampr/universal-joy](https://github.com/sotlampr/universal-joy)
 
+**Us vs. Them**
+- huguet-cabot-etal
+- collected Reddit comments posted for specific news headlines. Then, they used   crowdsourcing (Amazon Mechanical Turk) to annotate the comments for populist attitudes towards specific groups such as Immigrants or Muslims or Jews. 
+- they extended Ekman’s model to a 12-emotion model, so that they could include a balanced set of positive (e.g. \textit{gratitude}) and negative emotions (e.g. \textit{contempt})
+
 **WASSA-21**
 - Authors: Valentin Barriere, João Sedoc, Shabnam Tafreshi, and Salvatore Giorgi
 - Size: 2,385 essays.
@@ -133,3 +163,11 @@
 - Labels: anger, disgust, fear, joy, sadness, surprise, neutral
 - Link to paper: [https://aclanthology.org/2021.wassa-1.10/](https://aclanthology.org/2021.wassa-1.10/)
 - Link to dataset: [https://competitions.codalab.org/competitions/28713](https://competitions.codalab.org/competitions/28713)
+
+**WASSA-23**
+- Barriere-etal
+- The records were also essays written after reading an article (similar to WASSA-21) but the data were annotated as multi-labeled with Ekman plus \textit{neutral} and \textit{hope}. We were able to obtain the training and development sets from the organizers, but not the test set, as they are still working on improving the test set. Beyond the essays and related emotions, the new task in 2023 also provided conversations between the study participants after they wrote their essays: the data was first presented in \citep{omitaomu2022empathic}.
+
+**XED** 
+Ohman et al. 
+used an existing corpus of movie subtitles called OPUS, in English and Finnish. They had them annotated with Plutchik plus \textit{neutral} by university students (with some annotations provided by experts). {The data was projected on multiple languages using human translations, resulting in 32 languages total.
