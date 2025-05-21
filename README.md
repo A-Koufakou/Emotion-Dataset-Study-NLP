@@ -1,4 +1,4 @@
-This repository contains data information and links for the article below, accepted at Language Resources and Evaluation (Springer, April 2025):
+This repository contains data information and links for the article below, accepted at *Language Resources and Evaluation* (Springer, accepted April 2025):
 
 "Review of Recent Emotion-Annotated Text Corpora and Resources"
 
