@@ -187,6 +187,6 @@
 https://codalab.lisn.upsaclay.fr/competitions/11167
 
 **XED** 
-Ohman et al. 
-used an existing corpus of movie subtitles called OPUS, in English and Finnish. They had them annotated with Plutchik plus \textit{neutral} by university students (with some annotations provided by experts). {The data was projected on multiple languages using human translations, resulting in 32 languages total.
-https://github.com/Helsinki-NLP/XED
+- Ohman et al. 
+- used an existing corpus of movie subtitles called OPUS, in English and Finnish. They had them annotated with Plutchik plus \textit{neutral} by university students (with some annotations provided by experts). {The data was projected on multiple languages using human translations, resulting in 32 languages total.
+- https://github.com/Helsinki-NLP/XED
