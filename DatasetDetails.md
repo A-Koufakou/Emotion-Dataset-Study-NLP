@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e20c1264-76e5-4e92-a080-60fac1d15549)**This README contains brief descriptions and links for recent datasets labeled with emotions (presented since 2018)**
+**This README contains brief descriptions and links for recent datasets labeled with emotions (presented since 2018)**
 
 **Affect in Tweets**
 - Authors: Saif Mohammad, Felipe Bravo-Marquez, Mohammad Salameh, and Svetlana Kiritchenko.
