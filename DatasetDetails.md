@@ -1,4 +1,4 @@
-**This README contains brief descriptions and links for recent datasets labeled with emotions (presented since 2018)**
+![image](https://github.com/user-attachments/assets/e20c1264-76e5-4e92-a080-60fac1d15549)**This README contains brief descriptions and links for recent datasets labeled with emotions (presented since 2018)**
 
 **Affect in Tweets**
 - Authors: Saif Mohammad, Felipe Bravo-Marquez, Mohammad Salameh, and Svetlana Kiritchenko.
@@ -8,6 +8,10 @@
 - Link to paper: [https://aclanthology.org/S18-1001/](https://aclanthology.org/S18-1001/)
 - Link to dataset: [https://competitions.codalab.org/competitions/17751](https://competitions.codalab.org/competitions/17751)
 
+**AraEmoCorpus**
+- Description: collected 5.5 million Arabic tweets during the COVID-19 pandemic.
+- Labels: They automatically labeled a subset of the tweets with Ekman, using a hybrid of rule-based and neural network techniques. 
+
 **CARER**
 - Authors: Elvis Saravia, Hsien-Chi Toby Liu, Yen-Hao Huang, Junlin Wu, and Yi-Shin Chen.
 - Size: total was 416,809 tweets. Sample we used for our experiments: 62,522
@@ -16,6 +20,10 @@
 - Link to paper: [https://aclanthology.org/D18-1404/](https://aclanthology.org/D18-1404/)
 - Link to dataset: [https://huggingface.co/datasets/dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion)
 
+**CEDR** 
+- Decription: Created a corpus of Russian data collected from several sources: social network posts, texts from an online news agency, and tweets.
+- Labels: Data were annotated by crowdsourcing workers with Ekman minus disgust (multi-label). 
+
 **Covid-Worry**
 - Authors: Bennett Kleinberg, Isabelle van der Vegt, and Maximilian Mozes
 - Size: 5,350 survey responses from 3 years
@@ -23,6 +31,11 @@
 - Labels: anger, anxiety, disgust, desire, fear, happiness, relaxation,  sadness
 - Link to paper: [https://aclanthology.org/2020.nlpcovid19-acl.11/](https://aclanthology.org/2020.nlpcovid19-acl.11/)
 - Link to dataset: [https://osf.io/awy7r/](https://osf.io/awy7r/)
+
+**DENS**
+- \cite{liu2019dens}
+- collected classic and modern English narratives from online sources (wattpad and Project Gutenberg). The 9,710 passages in DENS (Dataset for Emotions of Narrative Sequences) were annotated by Amazon Mechanical Turk workers with \textit{joy, sadness, anger, fear, anticipation, surprise, love, disgust}, and \textit{neutral}.
+- The data is available on request.
 
 **EmoContext**
 - Authors: Ankush Chatterjee, Kedhar Nath Narahari, Meghana Joshi, and Puneet Agrawal.
