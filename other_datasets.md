@@ -1,4 +1,4 @@
-Here we include datasets we found that we did not find during our systematic study, but found later through other papers or later google scholar searches. Note that the full citation can be found in our paper.
+Here we include datasets we found, not during our systematic study, but later through other papers or later google scholar searches. Note that the full citation can be found in our paper.
 
 - CancerEmo: 8.5 thousand sentences sourced from an online cancer survivors network, annotated with Plutchik (Sosea & Caragea, 2020).
 - EmoHD: 4.2 thousand records related to major diseases, collected from different online health sources and social sites (Azam et al., 2021). They labeled data using an AI-based tool22, which applies one of these labels: happy, sad, angry,
