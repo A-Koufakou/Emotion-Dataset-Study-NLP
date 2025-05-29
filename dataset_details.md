@@ -76,7 +76,7 @@
 - Authors: Bianchi, F., Nozza, D., & Hovy, D. (2021)
 - Description: Collected Italian tweets in 2020 without using specific terms.
 - Labels: Two of the authors annotated about 2 thousand tweets with four emotions: anger, fear, joy, sadness.
-- On request.
+- On request: https://github.com/MilaNLProc/feel-it 
 
 **github-emotion-love**
 - Authors: Mia Mohammad Imran, Yashasvi Jain, Preetha Chatterjee, Kostadin Damevski
